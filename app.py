@@ -2,6 +2,7 @@ import gradio as gr
 
 AUDIO_FILE = "ocean_waves.mp3"
 
+
 def play_water_waves():
     return AUDIO_FILE
 
