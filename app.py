@@ -6,7 +6,7 @@ def play_water_waves():
     return AUDIO_FILE
 
 with gr.Blocks(title="Relaxing Water Waves") as demo:
-    gr.Markdown("Relaxing Water Waves")
+    gr.Markdown("# Relaxing Water Waves")
     gr.Markdown("Click below to hear soothing water wave sounds!")
     btn = gr.Button("Play Water Waves")
     output = gr.Audio(label="Relaxing Sounds", interactive=False)
